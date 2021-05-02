@@ -13,6 +13,11 @@
 		9049C536263E90BA0014B9DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9049C534263E90BA0014B9DD /* Main.storyboard */; };
 		9049C538263E90BB0014B9DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9049C537263E90BB0014B9DD /* Assets.xcassets */; };
 		9049C53B263E90BB0014B9DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9049C539263E90BB0014B9DD /* LaunchScreen.storyboard */; };
+		9049C544263E98210014B9DD /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049C543263E98210014B9DD /* Coordinator.swift */; };
+		9049C547263E98D20014B9DD /* StoryBoarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049C546263E98D20014B9DD /* StoryBoarded.swift */; };
+		9049C54A263E9A180014B9DD /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049C549263E9A180014B9DD /* MainCoordinator.swift */; };
+		9049C54E263EBEB00014B9DD /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049C54D263EBEB00014B9DD /* BuyViewController.swift */; };
+		9049C551263EBECB0014B9DD /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049C550263EBECB0014B9DD /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		9049C537263E90BB0014B9DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9049C53A263E90BB0014B9DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9049C53C263E90BB0014B9DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9049C543263E98210014B9DD /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9049C546263E98D20014B9DD /* StoryBoarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoarded.swift; sourceTree = "<group>"; };
+		9049C549263E9A180014B9DD /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		9049C54D263EBEB00014B9DD /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		9049C550263EBECB0014B9DD /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				9049C537263E90BB0014B9DD /* Assets.xcassets */,
 				9049C539263E90BB0014B9DD /* LaunchScreen.storyboard */,
 				9049C53C263E90BB0014B9DD /* Info.plist */,
+				9049C543263E98210014B9DD /* Coordinator.swift */,
+				9049C546263E98D20014B9DD /* StoryBoarded.swift */,
+				9049C549263E9A180014B9DD /* MainCoordinator.swift */,
+				9049C54D263EBEB00014B9DD /* BuyViewController.swift */,
+				9049C550263EBECB0014B9DD /* CreateAccountViewController.swift */,
 			);
 			path = CoordinatorDemo;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9049C547263E98D20014B9DD /* StoryBoarded.swift in Sources */,
+				9049C54A263E9A180014B9DD /* MainCoordinator.swift in Sources */,
+				9049C544263E98210014B9DD /* Coordinator.swift in Sources */,
 				9049C533263E90BA0014B9DD /* ViewController.swift in Sources */,
+				9049C551263EBECB0014B9DD /* CreateAccountViewController.swift in Sources */,
 				9049C52F263E90BA0014B9DD /* AppDelegate.swift in Sources */,
+				9049C54E263EBEB00014B9DD /* BuyViewController.swift in Sources */,
 				9049C531263E90BA0014B9DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
