@@ -30,4 +30,7 @@ To see how tab views work with Coordinators.
 Check class MainTabBarControllerViewController . This class is also set as the starting class in AppDelegate by setting->  window?.rootViewController = MainTabBarControllerViewController()
 
 
+There is another way of navigation using closures with coordinators. For that see the above linked video from 14:20
+
+
 
