@@ -19,4 +19,12 @@ Here, we have added child coordinator (BuyCoordinator) to our parent coordinator
 ## Branch = fixed_child_coorndiator_navigation
 The didFinish method of the controller, which initiates the process of removing the child coordinator from the parent is wrong. This is bcoz the child coordinator can itself has multiple view controllers and viewDidDisappear() will be called prematurely, and your coordinator stack will get confused. Hence, to solve that MainCoordinator is made to implement callbacks of navigationController. Check this method -> func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool)  in MainCoordinator to understand this in Branch = fixed_child_coorndiator_navigation.
 
+## Branch = passing_dataa_demo
+To see how data is passed from ViewController to BuyViewController, check this branch. 
+
+## Branc = tab_view_controller
+To see how tab views work with Coordinators.
+Check class MainTabBarControllerViewController . This class is also set as the starting class in AppDelegate by setting->  window?.rootViewController = MainTabBarControllerViewController()
+
+
 
