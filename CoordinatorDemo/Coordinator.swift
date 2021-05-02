@@ -8,7 +8,8 @@
 import Foundation
 import UIKit
 
-protocol Coordinator {
+// By adding any object, we make sure that this protocol is used by classes only
+protocol Coordinator : AnyObject {
     var childCoordinator : [Coordinator] {get set}
     var navigationContorller : UINavigationController {get set}
     

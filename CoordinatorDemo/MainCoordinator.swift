@@ -24,9 +24,20 @@ class MainCoordinator: Coordinator {
     }
     
     func buySubscription() {
-        let vc = BuyViewController.instantiate()
-        vc.coordinator = self
-        navigationContorller.pushViewController(vc, animated: true)
+        // Parent coordintor creating child coordinator to divide the work
+        let child = BuyCoordinator(navigationController: navigationContorller)
+        child.parentCoordinator = self
+        childCoordinator.append(child)
+        child.start()
+    }
+    
+    func childDidFinish(_ child: Coordinator?) {
+        for(index, coordinator) in childCoordinator.enumerated() {
+            if coordinator === child {
+                childCoordinator.remove(at: index)
+                break
+            }
+        }
     }
     
     func createAccount() {
