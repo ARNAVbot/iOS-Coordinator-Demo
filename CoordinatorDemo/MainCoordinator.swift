@@ -18,6 +18,7 @@ class MainCoordinator: Coordinator {
     
     func start() {
         let vc = ViewController.instantiate()
+        vc.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
         vc.coordinator = self
         vc.flag = 5
         navigationContorller.pushViewController(vc, animated: true)

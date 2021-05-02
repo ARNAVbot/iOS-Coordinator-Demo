@@ -18,6 +18,7 @@
 		9049C54A263E9A180014B9DD /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049C549263E9A180014B9DD /* MainCoordinator.swift */; };
 		9049C54E263EBEB00014B9DD /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049C54D263EBEB00014B9DD /* BuyViewController.swift */; };
 		9049C551263EBECB0014B9DD /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049C550263EBECB0014B9DD /* CreateAccountViewController.swift */; };
+		9049C57E263F02BC0014B9DD /* MainTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049C57D263F02BC0014B9DD /* MainTabBarControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		9049C549263E9A180014B9DD /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		9049C54D263EBEB00014B9DD /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		9049C550263EBECB0014B9DD /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		9049C57D263F02BC0014B9DD /* MainTabBarControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				9049C549263E9A180014B9DD /* MainCoordinator.swift */,
 				9049C54D263EBEB00014B9DD /* BuyViewController.swift */,
 				9049C550263EBECB0014B9DD /* CreateAccountViewController.swift */,
+				9049C57D263F02BC0014B9DD /* MainTabBarControllerViewController.swift */,
 			);
 			path = CoordinatorDemo;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				9049C544263E98210014B9DD /* Coordinator.swift in Sources */,
 				9049C533263E90BA0014B9DD /* ViewController.swift in Sources */,
 				9049C551263EBECB0014B9DD /* CreateAccountViewController.swift in Sources */,
+				9049C57E263F02BC0014B9DD /* MainTabBarControllerViewController.swift in Sources */,
 				9049C52F263E90BA0014B9DD /* AppDelegate.swift in Sources */,
 				9049C54E263EBEB00014B9DD /* BuyViewController.swift in Sources */,
 				9049C531263E90BA0014B9DD /* SceneDelegate.swift in Sources */,
