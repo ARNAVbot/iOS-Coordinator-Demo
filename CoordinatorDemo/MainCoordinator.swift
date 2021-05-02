@@ -56,7 +56,8 @@ class MainCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {
         if navigationController.viewControllers.contains(fromViewController) {
             return
         }
-        // if the fromController is BuyViewController , we remove it. 
+        // if the fromController is BuyViewController , we remove it.
+        // We remove only when the fromController is BuyViewController because this is the controller which is the starting controller of the child coordinator. The child coordinator can have multiple controllers , but the child coordinator needs to be removed from parent only when the entry or the first controller added to child coordinator is removed. As before removing this controller , all others must have been reviously removed.
         if let buyViewController = fromViewController as? BuyViewController {
             childDidFinish(buyViewController.coordinator)
         }
