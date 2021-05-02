@@ -2,6 +2,9 @@
 
 This project basically tells how and why to use the coordinator pattern in iOS. 
 
+## Branch = main
+A simple example of how to decouple navigation from individual controllers using Coordinators. See MainCoordinator class for this. 
+
 ## Branch = child_coordinator
 For reference , go to this video -> https://www.hackingwithswift.com/articles/71/how-to-use-the-coordinator-pattern-in-ios-apps and this article -> https://www.hackingwithswift.com/articles/175/advanced-coordinator-pattern-tutorial-ios
 Even after doing this , things might not work. The navigation controller might not be still added. For that, we need to delete "Application Scene Manifest" property needs to be deleted from Info.plist file too. 
