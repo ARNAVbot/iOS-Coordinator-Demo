@@ -10,10 +10,11 @@ import UIKit
 class BuyViewController: UIViewController , StoryBoarded{
     
     weak var coordinator : MainCoordinator?
+    var input: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("input = \(input)")
         // Do any additional setup after loading the view.
     }
     

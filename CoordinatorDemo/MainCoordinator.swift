@@ -23,8 +23,9 @@ class MainCoordinator: Coordinator {
         navigationContorller.pushViewController(vc, animated: true)
     }
     
-    func buySubscription() {
+    func buySubscription(_ input: String) {
         let vc = BuyViewController.instantiate()
+        vc.input = input
         vc.coordinator = self
         navigationContorller.pushViewController(vc, animated: true)
     }

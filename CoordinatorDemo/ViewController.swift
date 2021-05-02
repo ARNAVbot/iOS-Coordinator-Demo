@@ -23,7 +23,7 @@ class ViewController: UIViewController, StoryBoarded {
     }
     
     @IBAction func buyTapped(_ sender: UIButton) {
-        coordinator?.buySubscription()
+        coordinator?.buySubscription("Hey")
     }
 }
 
